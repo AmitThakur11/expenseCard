@@ -1,0 +1,141 @@
+.expenseCard {
+  height: 187px;
+  width: 333px;
+  border-radius: 12px;
+  background-color: #3f3f3f;
+  
+  box-shadow: 0px 4px 20px 0px #00000040;
+  padding: 16px;
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+}
+.cardSection_one {
+  margin: 10px 0px;
+  display: flex;
+  justify-content: space-between;
+}
+.cardSection_one > p {
+  height: 20px;
+  font-weight: 700;
+  
+  font-size: 16px;
+  line-height: 19px;
+  text-align: center;
+
+  color: #ffffff;
+}
+
+
+.options{
+  position: absolute;
+ font-size:14px;
+width: 120px;
+height: 127px;
+transform: translate(-12%,6%);
+display: flex;
+justify-content: space-around;
+flex-direction: column;
+background: #FFFFFF;
+box-shadow: 0px 4px 15px rgba(0, 0, 0, 0.25);
+border-radius: 8px;
+}
+
+.selectBoxContainer {
+  
+ font-size: 14px;
+  position: relative;
+  
+}
+
+.option{
+ margin-left:20px;
+ width: fit-content;
+
+
+}
+.option:hover{
+  color: rgba(47, 179, 255, 0.884);
+  cursor: pointer;
+
+}
+.selectBox{
+  
+  cursor: pointer;
+  display: flex;
+  align-items: center;
+}
+.selectBox >span{
+  color: white;
+  border-bottom: 2px solid white;
+  padding-bottom: 3px;
+  margin-right: 4px;
+}
+.selectBox >svg{
+ font-size:18px;
+ color:white;
+}
+.cardSection_two {
+  padding: 10px 0px;
+  color:white;
+  display: flex;
+  /* justify-content: space-between; */
+}
+
+.cardSection_two > p:nth-child(1) {
+  font-size: 16px;
+  margin-right: 12px;
+  line-height: 19px;
+  letter-spacing: 0em;
+  text-align: center;
+  display: flex;
+  align-items: flex-end;
+}
+
+.cardSection_two > p:nth-child(2) {
+
+
+  font-size: 30px;
+  line-height: 35px;
+  letter-spacing: 0em;
+  text-align: center;
+}
+.cardSection_three {
+  display: flex;
+  flex-direction: column;
+  justify-content: flex-end;
+}
+.expenseBarContainer {
+  border-radius: 10px;
+}
+.expenseBar {
+  display: flex;
+  height: 10px;
+  width: 100%;
+}
+
+.expenseBar > section:first-child {
+  border-radius: 20px 0px 0px 20px;
+}
+.expenseBar > section:last-child {
+  border-radius: 0px 20px 20px 0px;
+}
+
+.expenseIndicator {
+  display: flex;
+}
+.expenseItems {
+  margin: 15px 10px 0px 0px;
+  display: flex;
+  align-items: center;
+  color:white;
+  font-size:12px;
+
+}
+.expenseItems > p {
+  width: 12px;
+  height: 12px;
+  background-color: red;
+  border-radius: 50%;
+  margin-right: 4px;
+}

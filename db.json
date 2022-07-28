@@ -1,0 +1,19 @@
+{
+  "expenses": [
+    {
+      "id": 1,
+      "area": "Food",
+      "expense": 200
+    },
+    {
+      "id": 2,
+      "area": "Shopping",
+      "expense": 150
+    },
+    {
+      "id": 3,
+      "area": "Movies",
+      "expense": 100
+    }
+  ]
+}
